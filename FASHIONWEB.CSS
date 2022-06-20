@@ -1,0 +1,143 @@
+.boxl{
+    border: 1px solid ;
+    background-color: black;
+   height: 30px; 
+}
+ul{
+    float: left;
+    color: white;
+}
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 400%;
+    width: 100px;
+    font-family: cursive;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+h5{
+    color: white;
+    margin-top: 1px;
+    margin: 7px 12px;
+    position: relative;
+    left: -15%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.subbox{
+     border: 1px solid transparent;
+     background-color: whitesmoke;
+     height: 50px;
+}
+ol{
+    float: left;
+}
+ol li{
+    float: left;
+    width: 90px;
+    list-style-type: none;
+    position: relative;
+    left: 180%;
+    font-family: fantasy;
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+}
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+.fa-search{
+    position: absolute;
+    left: 87%;
+    top: 6.7%;
+    color: black;
+}
+.fa-user{
+    position: absolute;
+    left: 88.9%;
+    top: 6.7%;
+    color: black;
+}
+.fa-shopping-cart{
+    position: absolute;
+    left: 91%;
+    top: 6.5%;
+    color: black;
+    width: 25px;
+    height: -30px;
+    border-radius: 100px;
+    background-color: navajowhite;
+    margin-top: 2px;
+    margin-left: -4px;
+    text-align: left;
+} 
+h3{
+    color: red;
+    position: absolute;
+    left: 91.29%;
+    top: 2.8%;
+    width: 18px;
+    height: -50px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: cursive;
+}
+h2{
+    position: absolute;
+    left: 4%;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-top: 4px;
+}  
+font{
+    color: red;
+}
+
+.cover{
+    font-family: sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    left: 55% !important;
+    top: 50%;
+    position: center ;
+}
+
+.container img{
+    display: block;
+    width: 50%;
+    left: 155% !important;
+    height: auto;
+}
+
+.text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: cursive;
+    color: rgba(233, 90, 90, 0.986);
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.middle{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: -5s ease;
+    background: whitesmoke;
+}
+
+.cover:hover .middle{
+    opacity: 0.6;
+}
